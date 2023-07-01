@@ -1,8 +1,11 @@
 import React from 'react'
+import logo from "../../Assets/rcf logo.svg"
 
 const Logo = () => {
   return (
-    <div>Logo</div>
+    <div>
+      <img src={logo} alt=''/>
+    </div>
   )
 }
 
