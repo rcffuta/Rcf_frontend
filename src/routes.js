@@ -5,6 +5,7 @@ import Blog from './Pages/Blog/Blog';
 import Excos from './Pages/Excos/Excos';
 import Sermons from './Pages/Sermons/Sermons';
 import AboutUs from './Pages/AboutUs/AboutUs';
+import OnlineGiving from './Pages/OnlineGiving/OnlineGiving';
 
 const routes = () => {
   return (
@@ -15,6 +16,7 @@ const routes = () => {
         <Route index path="/excos" element={<Excos />}></Route>
         <Route index path="/sermons" element={<Sermons />}></Route>
         <Route index path="/about" element={<AboutUs/>}></Route>
+        <Route index path="/online_giving" element={<OnlineGiving/>}></Route>
         </Routes>
     </div>
   )
