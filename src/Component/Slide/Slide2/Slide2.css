@@ -1,8 +1,8 @@
-.Slide2{
- height:100vh;
-    background-image: url("../../../Assets/Slide2.png"); 
+.Slide2 {
+    height: 650px; /* Adjust the value as needed */
+    background-image: url("../../../Assets/Slide2.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     width: 100%;
     overflow: hidden;
 }
