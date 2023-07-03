@@ -1,16 +1,17 @@
 .Navbar {
   display: flex;
-  justify-content: space-around;
+  gap: 28%;
+  justify-content: space-between;
   align-items: center;
-  margin: 2%;
+  margin: 4% 2% 2% 8%;
   position: absolute;
+  width: 90%;
 }
 
 a {
   text-decoration: none;
   cursor: pointer;
-
-  /* color: #FFFFFF; */
+   color: #FFFFFF; 
   display: flex;
   gap: 20px;
 }
@@ -25,10 +26,15 @@ a {
 
 .Navbar_link {
   display: flex;
+ 
   align-items: center;
   gap: 40px;
 }
 .Exco_para {
   margin-top: 0.2%;
   
+}
+.Logo{
+  display: flex;
+  gap: 40px;
 }

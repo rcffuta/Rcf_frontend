@@ -6,7 +6,7 @@ import Slide2 from '../../Component/Slide/Slide2/Slide2'
 
 const Home = () => {
   return (
-    <div>
+    <div className='Home'>
        
       <Navbar/>
       <Slide2/>
