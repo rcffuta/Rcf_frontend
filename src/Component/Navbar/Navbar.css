@@ -1,3 +1,44 @@
+
+.Navbar {
+  display: flex;
+  gap: 28%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4% 2% 2% 8%;
+  position: absolute;
+  width: 90%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+   color: #FFFFFF; 
+  display: flex;
+  gap: 20px;
+}
+.Exco_btn {
+  border: 20px;
+  background-color: #4dc8eb;
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar_link {
+  display: flex;
+ 
+  align-items: center;
+  gap: 40px;
+}
+.Exco_para {
+  margin-top: 0.2%;
+  
+}
+.Logo{
+  display: flex;
+  gap: 40px;
+
 * {
     margin: 0;
     padding: 0;

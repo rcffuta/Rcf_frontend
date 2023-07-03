@@ -1,0 +1,33 @@
+.Slide2 {
+    height: 649px; /* Adjust the value as needed */
+    background-image: url("../../../Assets/Slide2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.Slide2_text{
+    display: flex;
+    position: absolute;
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 28%;
+    margin: 28% 0% 0% 14%;
+
+}
+.Slide2_body{
+    display: flex;
+    position: absolute;
+    color: #FFFFFF;
+    width: 24%;
+    margin: 37% 0% 0% 25%;
+}
+.Arrow{
+    background-color:#4dc8eb ;
+    border-radius: 59%;
+    width: 8%;
+    display: flex;
+    position: absolute;
+    margin: 24% 0% 0% 30%;
+}

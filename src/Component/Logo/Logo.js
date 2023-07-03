@@ -3,7 +3,7 @@ import logo from "../../Assets/rcf logo.svg"
 
 const Logo = () => {
   return (
-    <div>
+    <div className='Logo'>
       <img src={logo} alt=''/>
     </div>
   )
