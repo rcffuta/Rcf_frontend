@@ -3,6 +3,7 @@
   justify-content: space-around;
   align-items: center;
   margin: 2%;
+  position: absolute;
 }
 
 a {
