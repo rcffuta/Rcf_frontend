@@ -1,0 +1,18 @@
+.vision {
+    
+    background-image: url("C:\Users\USER\Desktop\Website\Rcf_web_frontend\src\Assets\vision.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: #ffffff;
+}
+.contents{
+    margin-left: 8%;
+    margin-top: 20%;
+    width: 60%;
+}
+.texts{
+    line-height: 40.96px;
+}
+    
