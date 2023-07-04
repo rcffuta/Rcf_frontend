@@ -1,5 +1,5 @@
 .vision {
-    height: 649px; /* Adjust the value as needed */
+    
     background-image: url("C:\Users\USER\Desktop\Website\Rcf_web_frontend\src\Assets\vision.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -15,3 +15,4 @@
 .texts{
     line-height: 40.96px;
 }
+    
