@@ -1,40 +1,149 @@
 .Navbar {
-  display: flex;
-  gap: 28%;
-  justify-content: space-between;
-  align-items: center;
-  margin: 4% 2% 2% 8%;
-  position: absolute;
-  width: 90%;
+    display: flex;
+    gap: 28%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4% 2% 2% 8%;
+    position: absolute;
+    width: 90%;
 }
 
 a {
-  text-decoration: none;
-  cursor: pointer;
-   color: #FFFFFF; 
-  display: flex;
-  gap: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    display: flex;
+    gap: 20px;
 }
+
 .Exco_btn {
-  border: 20px;
-  background-color: #4dc8eb;
-  color: #ffffff;
-  padding: 10px;
-  display: flex;
-  align-items: center;
+    border: 20px;
+    background-color: #4dc8eb;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .Navbar_link {
-  display: flex;
- 
-  align-items: center;
-  gap: 40px;
+    display: flex;
+
+    align-items: center;
+    gap: 40px;
 }
+
 .Exco_para {
-  margin-top: 0.2%;
-  
+    margin-top: 0.2%;
+
 }
+
+.Logo {
+    display: flex;
+    gap: 40px;
+}
+
 .Logo{
   display: flex;
   gap: 40px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    z-index: 5;
+}
+
+#menu-icon {
+    display: none;
+}
+
+#nav-bar ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#nav-bar ul li a {
+    display: block;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 0px;
+    margin: 0 5px;
+    transition: 0.2s;
+}
+
+.highlighted {
+    background: #4DC8EB;
+    color: #F5F5F5;
+    border: 1px solid #4DC8EB;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1320px) {
+    header {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    header {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    #nav-bar {
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #084068;
+        transition: 0.2s;
+        overflow: hidden;
+    }
+
+    #nav-bar.active {
+        height: 450px;
+    }
+
+    #nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    #nav-bar.active ul {
+        opacity: 1;
+    }
+
+    #nav-bar ul li a {
+        margin-bottom: 12px;
+    }
 }
