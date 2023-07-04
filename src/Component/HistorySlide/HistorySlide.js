@@ -13,11 +13,11 @@ const History = () => {
                 </div>
 
                 <div className="slide-btns">
-                    <input type="radio"></input>
-                    <input type="radio"></input>
-                    <input type="radio"></input>
-                    <input type="radio"></input>
-                    <input type="radio"></input>
+                    <input name="click" type="radio"></input>
+                    <input name="click" type="radio" checked></input>
+                    <input name="click" type="radio"></input>
+                    <input name="click" type="radio"></input>
+                    <input name="click" type="radio"></input>
                 </div>
             </div>
         </React.Fragment>
