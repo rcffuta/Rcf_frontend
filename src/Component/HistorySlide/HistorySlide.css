@@ -46,7 +46,10 @@ p {
 
 input {
     display: block;
-    margin: 0.7rem;
+    margin: 1rem;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1320px) {
