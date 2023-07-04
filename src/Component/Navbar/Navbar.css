@@ -42,6 +42,12 @@ a {
     gap: 40px;
 }
 
+.Logo{
+  display: flex;
+  gap: 40px;
+}
+
+
 * {
     margin: 0;
     padding: 0;
