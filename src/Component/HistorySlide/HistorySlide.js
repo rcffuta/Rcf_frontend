@@ -3,7 +3,7 @@ import "./HistorySlide.css"
 
 const History = () => {
     return (
-        <React.Fragment>
+        
             <div className="history">
                 <div className="contents">
                     <h1>History Of The Fellowship</h1>
@@ -20,8 +20,9 @@ const History = () => {
                     <input name="click" type="radio"></input>
                 </div>
             </div>
-        </React.Fragment>
+       
     )
 }
 
 export default History
+
