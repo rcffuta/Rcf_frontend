@@ -4,7 +4,6 @@ import Home from './Pages/Home/Home';
 import Blog from './Pages/Blog/Blog';
 import Excos from './Pages/Excos/Excos';
 import Sermons from './Pages/Sermons/Sermons';
-import Vision from './Pages/Vision/Vision';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import OnlineGiving from './Pages/OnlineGiving/OnlineGiving';
 
@@ -17,7 +16,6 @@ const RouteFile = () => {
           <Route path="/blog" element={<Blog />} />
           <Route path="/excos" element={<Excos />} />
           <Route path="/sermons" element={<Sermons />} />
-          <Route path="/vision" element={<Vision />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/online_giving" element={<OnlineGiving />} />
         </Routes>
