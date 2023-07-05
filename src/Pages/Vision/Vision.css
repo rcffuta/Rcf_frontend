@@ -1,7 +1,7 @@
 
 .vision{
     min-height: 649px;
-    background: url("C:\Users\USER\Desktop\Website\Rcf_web_frontend\src\Assets\vision.png");
+    background: url("../../Assets/vision.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
