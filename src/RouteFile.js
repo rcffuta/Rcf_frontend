@@ -9,18 +9,19 @@ import AboutUs from './Pages/AboutUs/AboutUs';
 import OnlineGiving from './Pages/OnlineGiving/OnlineGiving';
 
 
+
 const RouteFile = () => {
   return (
     <div>
 <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/"  element={<Home />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/excos" element={<Excos />} />
           <Route path="/sermons" element={<Sermons />} />
           <Route path="/vision" element={<Vision />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/online_giving" element={<OnlineGiving />} />
-        </Routes>
+  </Routes>
     </div>
   )
 }
