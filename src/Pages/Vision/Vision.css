@@ -1,11 +1,11 @@
-.vision {
-    
-    background-image: url("C:\Users\USER\Desktop\Website\Rcf_web_frontend\src\Assets\vision.png");
+
+.vision{
+    min-height: 649px;
+    background: url("C:\Users\USER\Desktop\Website\Rcf_web_frontend\src\Assets\vision.png");
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
+    background-size: cover;
     overflow: hidden;
-    color: #ffffff;
 }
 .contents{
     margin-left: 8%;
@@ -14,5 +14,18 @@
 }
 .texts{
     line-height: 40.96px;
+}
+@media screen and (max-width: 900px) {
+    .vision{
+        font-size: 16px;
+        
+    }
+    .contents{
+        width: 80%;
+        margin-top: 30%;
+    }
+    .texts{
+        line-height: 30.96px;
+    }
 }
     
