@@ -1,10 +1,14 @@
-import React from 'react'
-import Vision from '../../Component/Vision/Vision'
+import React from "react"
+import Vision from "../../Component/Vision/Vision"
 import "./AboutUs.css"
+import Mission from "../../Component/Mission/Mission"
 
 const AboutUs = () => {
   return (
-    <div><Vision /></div>
+    <div>
+      <Vision />
+      <Mission />
+    </div>
   )
 }
 
