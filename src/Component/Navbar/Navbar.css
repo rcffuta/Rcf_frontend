@@ -41,13 +41,13 @@ a {
   gap: 40px;
 }
 
-/* .Logo{
+ .Logo{
   display: flex;
   gap: 40px;
 }
 
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -145,4 +145,4 @@ header {
     #nav-bar ul li a {
         margin-bottom: 12px;
     }
-} */
+}  */
