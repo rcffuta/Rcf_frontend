@@ -47,7 +47,7 @@ a {
 }
 
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -145,4 +145,4 @@ header {
     #nav-bar ul li a {
         margin-bottom: 12px;
     }
-} 
+}  */
