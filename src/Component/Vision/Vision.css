@@ -1,32 +1,34 @@
+.vision {
+  min-height: 649px;
+  background: url("../../Assets/vision.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: #ffffff;
+}
 
-.vision{
-    min-height: 649px;
-    background: url("../../Assets/vision.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    color: #ffffff
+Navbar {
+  position: fixed;
 }
-.contents{
-    margin-left: 8%;
-    margin-top: 20%;
-    width: 60%;
+
+.contents {
+  margin-left: 8%;
+  margin-top: 20%;
+  width: 60%;
 }
-.texts{
-    line-height: 40.96px;
+.texts {
+  line-height: 40.96px;
 }
 @media screen and (max-width: 900px) {
-    .vision{
-        font-size: 16px;
-        
-    }
-    .contents{
-        width: 80%;
-        margin-top: 30%;
-    }
-    .texts{
-        line-height: 30.96px;
-    }
+  .vision {
+    font-size: 16px;
+  }
+  .contents {
+    width: 80%;
+    margin-top: 30%;
+  }
+  .texts {
+    line-height: 30.96px;
+  }
 }
-    

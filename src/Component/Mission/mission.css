@@ -1,0 +1,30 @@
+.mission-body {
+  width: 100%;
+  height: 100vh;
+  background: url(../../Assets//Mission.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffff;
+  overflow: hidden;
+}
+
+.mission-content {
+  margin-left: 8%;
+  margin-top: 20%;
+  width: 60%;
+}
+
+.mission-body .header {
+  font: "inter";
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 7rem;
+}
+
+.mission-statement {
+  font: "lora";
+  font-weight: 500;
+  line-height: 1.45rem;
+  margin-top: -2rem;
+}
