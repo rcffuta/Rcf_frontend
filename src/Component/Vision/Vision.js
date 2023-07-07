@@ -5,9 +5,7 @@ import "./Vision.css"
 const Vision = () => {
   return (
     <div className="vision">
-      {/* <div className="nav"> */}
       <Navbar />
-      {/* </div> */}
       <div className="contents">
         <div className="header">
           <h1>VISION STATEMENT</h1>
