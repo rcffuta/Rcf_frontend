@@ -1,5 +1,6 @@
 import React from 'react'
 import Arrow from "../../../Assets/Arrow.svg"
+import EastIcon from '@mui/icons-material/East';
 import "./Slide2.css"
 
 const Slide2 = () => {
@@ -10,11 +11,11 @@ const Slide2 = () => {
       </div>
       <div className='Slide2_body'>
         <p>The steadfast love of the LORD never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness.</p>
-        <img src={Arrow} alt='' className='Arrow'/>
+       <EastIcon className='Arrow'/>
       </div>
         
     </div>
   )
 }
 
-export default Slide2
+export default Slide2;
