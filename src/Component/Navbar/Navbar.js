@@ -12,6 +12,7 @@ import {
   ListItemText,
 } from '@material-ui/core';
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -35,10 +36,42 @@ const useStyles = makeStyles((theme) => ({
       display: 'flex',
       alignItems: 'center',
       gap: 40,
+      color: 'white',
     },
+    [theme.breakpoints.down('sm')]: {
+      marginTop: theme.spacing(10), // Adjust the value as needed
+    },
+    '& > a': {
+      textDecoration: 'none',
+      color: 'white',
+    },
+  },
+  excoLink: {
+    background: '#4DC8EB',
+    border: '2px solid #4DC8EB',
+    padding: '8px 16px',
+    borderRadius: '4px',
+    color: 'white',
   },
   menu: {
     width: 250,
+  },
+  appBar: {
+    boxShadow: 'none',
+  },
+  menuIcon: {
+    color: 'white',
+  },
+  closeIcon: {
+    position: 'absolute',
+    top: theme.spacing(2),
+    right: theme.spacing(2),
+    color: 'black',
+    zIndex: 1,
+  },
+  closeIconContainer: {
+    display: 'flex',
+    justifyContent: 'flex-end',
   },
 }));
 
@@ -56,7 +89,7 @@ const Navbar = () => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="fixed" color="transparent">
+      <AppBar position="fixed" className={classes.appBar} color="transparent">
         <Toolbar>
           <div className={classes.title}>
             <Link to="/">
@@ -76,7 +109,7 @@ const Navbar = () => {
             <Link to="/online_giving">
               <span>Online Giving</span>
             </Link>
-            <Link to="/excos">
+            <Link to="/excos" className={classes.excoLink}>
               <span>Meet Our Excos</span>
             </Link>
           </div>
@@ -87,11 +120,21 @@ const Navbar = () => {
             aria-label="menu"
             onClick={handleMenuOpen}
           >
-            <MenuIcon />
+            <MenuIcon className={classes.menuIcon} />
           </IconButton>
         </Toolbar>
       </AppBar>
       <Drawer anchor="right" open={isMenuOpen} onClose={handleMenuClose}>
+        <div className={classes.closeIconContainer}>
+          <IconButton
+            className={classes.closeIcon}
+            color="inherit"
+            aria-label="close"
+            onClick={handleMenuClose}
+          >
+            <CloseIcon />
+          </IconButton>
+        </div>
         <div className={classes.menu} role="presentation">
           <List>
             <ListItem button component={Link} to="/about">
