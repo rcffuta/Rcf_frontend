@@ -1,19 +1,8 @@
-// import React from 'react'
-// import "./Slide.css"
-
-
-// const Slide = () => {
-//   return (
-//     <div>Slide</div>
-//   )
-// }
-
-// export default Slide
-
 import React, { useState, useEffect } from 'react';
 import Slide1 from '../../Assets/Slide1.png';
 import Slide2 from '../../Assets/Slide2.png';
 import Slide3 from '../../Assets/Slide3.png';
+import EastIcon from '@mui/icons-material/East';
 import './Slide.css';
 
 const Slide = () => {
@@ -23,38 +12,38 @@ const Slide = () => {
   const images = [
     {
       url: Slide1,
-      text: 'Text 1',
+      text: 'Fellowship',
+      body:'We are in Christ knitted in love and unity, called into the fellowship of the Holy Spirit through Jesus Christ our Lord and Saviour.',
     },
     {
       url: Slide2,
-      text: 'Text 2',
+      text: 'A place where good things never cease!',
+      body:'The steadfast love of the LORD never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness.',
     },
     {
       url: Slide3,
-      text: 'Text 3',
+      text: 'Spirituality',
+      body:'We are a peculiar generation, God’s own people— a fellowship of young people expressing themselves in Christ',
     },
-    {
-      url: 'url_4.jpg',
-      text: 'Text 4',
-    },
+
   ];
 
   useEffect(() => {
-    startSlider(); // Start the slider when the component mounts
+    startSlider(); 
     return () => {
-      clearInterval(intervalId); // Clear the interval when the component unmounts
+      clearInterval(intervalId); 
     };
-  }, []); // Empty dependency array to run the effect only once
+  }, []);
 
   const startSlider = () => {
     const id = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 10000); // Set the interval to 30 seconds
+    }, 10000); 
     setIntervalId(id);
   };
 
   const handleDotClick = (index) => {
-    clearInterval(intervalId); // Clear the interval when dot is clicked
+    clearInterval(intervalId); 
     setCurrentIndex(index);
   };
 
@@ -79,6 +68,8 @@ const Slide = () => {
             <img src={image.url} alt="" />
             <div className="slide-text">
               <h2>{image.text}</h2>
+              <div>{image.body}</div>
+              <EastIcon fontSize='small' className='Arrow'/>
             </div>
           </div>
         ))}
