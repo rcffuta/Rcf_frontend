@@ -2,6 +2,7 @@ import React from 'react';
 import Arrow from "../../../Assets/Arrow.svg";
 import EastIcon from '@mui/icons-material/East';
 import "./Slide2.css";
+import Footer from '../../Footer/Footer';
 
 const Slide2 = () => {
   return (
@@ -16,6 +17,7 @@ const Slide2 = () => {
           <span className='Slide2_arrow'><EastIcon fontSize='small' className='Arrow'/></span>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
