@@ -13,13 +13,13 @@ const AboutUs = () => {
   const images = [
     {
       url: About1,
-      text: 'Fellowship',
-      body:'We are in Christ knitted in love and unity, called into the fellowship of the Holy Spirit through Jesus Christ our Lord and Saviour.',
+      text: 'Who We Are',
+      body:'We are a peculiar generation purified and zealous unto God.  A fellowship of brothers and sisters, established in faith, and growing daily unto the stature of Christ. We are dispensers of His realities, strengthened by Christ to fulfill our purpose in God and on campus.',
     },
     {
       url: About2,
-      text: 'A place where good things never cease!',
-      body:'The steadfast love of the LORD never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness.',
+      text: 'History Of The Fellowship',
+      body:'The Redeemed Christian Fellowship, FUTA was founded in 1989 by . It started as a in The Redeemed Christian Fellowship, FUTA was founded in 1989 by . It started as a inThe Redeemed Christian Fellowship, FUTA was founded in 1989 by . It started as a in',
     },
     {
       url: About3,
@@ -28,12 +28,12 @@ const AboutUs = () => {
     },
     {
       url: About4,
-      text: 'Spirituality',
-      body:'We are a peculiar generation, God’s own people— a fellowship of young people expressing themselves in Christ',
+      text: 'MISSION STATEMENT',
+      body:'1. We shall give ourselves to in-depth study of Gods word by the help of the Holy Spirit and to prayer to understand our identity in Christ as peculiar people zealous for good works. 2 Timothy 2:15, 2 Timothy 3:15-17, Acts 17:11, John 8:31-32, Acts 6:4, Ephesians 1:15-23.2. We shall give ourselves to aggressive evangelism and effective follow up with the help of the Holy Spirit to bring as many souls who have gone astray and lost their relevance and peculiarity back to Christ and ensuring that they abide. John 15:16, Mark 16:15, Matthew 28:28-20, 1 Peter 1:12.3. We shall work with the Holy Spirit so that this life of peculiarity finds expression in our daily lives. Romans 8:14, John 14:26.',
     },
     {
       url: About5,
-      text: 'Spirituality',
+      text: 'Units In The Fellowship',
       body:'We are a peculiar generation, God’s own people— a fellowship of young people expressing themselves in Christ',
     },
 
