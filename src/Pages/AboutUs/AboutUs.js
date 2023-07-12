@@ -1,15 +1,17 @@
 import React from "react"
-import Vision from "../../Component/Vision/Vision"
-import "./AboutUs.css"
-import Mission from "../../Component/Mission/Mission"
 
-const AboutUs = () => {
+import "./AboutUs.css"
+import Navbar from "../../Component/Navbar/Navbar"
+import AboutUs from "../../Component/AboutUs/AboutUs"
+
+
+const About = () => {
   return (
     <div>
-      <Vision />
-      <Mission />
+  <Navbar/>
+  <AboutUs/>
     </div>
   )
 }
 
-export default AboutUs
+export default About
