@@ -6,7 +6,6 @@ import Excos from "./Pages/Excos/Excos"
 import Sermons from "./Pages/Sermons/Sermons"
 import AboutUs from "./Pages/AboutUs/AboutUs"
 import OnlineGiving from "./Pages/OnlineGiving/OnlineGiving"
-import Mission from "./Component/Mission/Mission"
 
 const RouteFile = () => {
   return (
