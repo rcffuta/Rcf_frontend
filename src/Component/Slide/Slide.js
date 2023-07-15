@@ -67,9 +67,11 @@ const Slide = () => {
           >
             <img src={image.url} alt="" />
             <div className="slide-text">
-              <h2>{image.text}</h2>
-              <div>{image.body}</div>
+              <h2 className='image-slide'>{image.text}</h2>
+              <div className='body-slide-flex'>
+              <div className='body-slide'>{image.body}</div>
               <EastIcon fontSize='small' className='Arrow'/>
+              </div>
             </div>
           </div>
         ))}
