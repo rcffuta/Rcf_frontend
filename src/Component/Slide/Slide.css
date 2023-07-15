@@ -27,13 +27,26 @@
   
   .slide-text {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
   }
-  
+  .image-slide{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 60px;
+  }
+  .body-slide{
+    margin: 0%;
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  /* .body-slide-flex{
+    display: flex;
+  } */
   .dots-container {
     position: absolute;
     top: 50%;
@@ -56,4 +69,9 @@
   .dot.active {
     background-color: #fff;
   }
-  
+  .Arrow{
+    width: 4%;
+    border-radius: 50%;
+    background-color: #4DC8EB;
+    padding: 4px;
+  }
