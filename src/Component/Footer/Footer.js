@@ -5,27 +5,33 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    position: 'absolute',
+    bottom: '4%',
+    right: '4%',
     display: 'flex',
+    alignItems: 'center',
     justifyContent: 'flex-end',
     padding: theme.spacing(1),
   },
   icon: {
     color: '#fff',
     marginRight: theme.spacing(1),
-    marginBottom: theme.spacing(1),
     cursor: 'pointer',
   },
   circularIcon: {
     borderRadius: '50%',
-    background: 'linear-gradient(180.31deg, rgba(8, 64, 104, 0.37) -1.09%, rgba(0, 62, 107, 0.96) 59.07%)',
+    background:
+      'linear-gradient(180.31deg, rgba(8, 64, 104, 0.37) -1.09%, rgba(0, 62, 107, 0.96) 59.07%)',
     padding: theme.spacing(0.5),
-    width: theme.spacing(2.5), 
-    height: theme.spacing(2.5), 
+    width: theme.spacing(2.5),
+    height: theme.spacing(2.5),
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
   },
 }));
+
+
 
 const Footer = () => {
   const classes = useStyles();

@@ -3,6 +3,7 @@ import Slide1 from '../../Assets/Slide1.png';
 import Slide2 from '../../Assets/Slide2.png';
 import Slide3 from '../../Assets/Slide3.png';
 import EastIcon from '@mui/icons-material/East';
+import Footer from "../Footer/Footer"
 import './Slide.css';
 
 const Slide = () => {
@@ -72,11 +73,15 @@ const Slide = () => {
               <div className='body-slide'>{image.body}</div>
               <EastIcon fontSize='small' className='Arrow'/>
               </div>
+              <div className="footer-wrapper">
+            <Footer />
+          </div>
             </div>
           </div>
         ))}
       </div>
       <div className="dots-container">{renderDots()}</div>
+      
     </div>
   );
 };
