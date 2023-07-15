@@ -5,6 +5,7 @@ import About3 from '../../Assets/About3.png';
 import About4 from '../../Assets/About4.png';
 import About5 from '../../Assets/About5.png';
 import "./AboutUs.css"
+import Footer from '../Footer/Footer';
 
 const AboutUs = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,12 +25,12 @@ const AboutUs = () => {
     {
       url: About3,
       text: 'VISION STATEMENT',
-      body:'1. To raise men and women who will stand out for Christ, to live righteously and Godly as peculiar beings in this present generation. 2 Corinthians 6:17-18; Daniel 1:38 Genesis 39: 5-9; Tituss 2:1-2.2. To see as many who has gone astray in this perverse generation brought back to the life of peculiarity they already have in Christ Jesus. 1 Peter 2:9, Matthew 5:13-16, Galatians 1:15-24.3. To see that children of God express peculiarity in all spheres of their lives (spiritually, academically, financially, socially, physically, morally, etc. Genesis 41: 38-42, Daniel 6:1-3.',
+      body:'To raise men who would be complete examples of God’s mind and be templates for others to follow. 1 Timothy 4:11-12, Titus 2:6-8, 2 Thessalonians 3:6-9.That every member of the church be thoroughly equipped for the master’s use amd fruitful in every good works in accordance with the ministry of reconciliation. 2 Timothy 2:19-21; 3:16-17, 2 Corinthians 4:1-2; 6:3-10, Colossians 1:9-10To raise mature disciples who will be able to teach others the ways of God, who will not be deceived by fables and false doctrines. Ephesians 4:13-14, Hebrews 5:11-14, Colossians 2:6-8, Matthew 28:19-20',
     },
     {
       url: About4,
       text: 'MISSION STATEMENT',
-      body:'1. We shall give ourselves to in-depth study of Gods word by the help of the Holy Spirit and to prayer to understand our identity in Christ as peculiar people zealous for good works. 2 Timothy 2:15, 2 Timothy 3:15-17, Acts 17:11, John 8:31-32, Acts 6:4, Ephesians 1:15-23.2. We shall give ourselves to aggressive evangelism and effective follow up with the help of the Holy Spirit to bring as many souls who have gone astray and lost their relevance and peculiarity back to Christ and ensuring that they abide. John 15:16, Mark 16:15, Matthew 28:28-20, 1 Peter 1:12.3. We shall work with the Holy Spirit so that this life of peculiarity finds expression in our daily lives. Romans 8:14, John 14:26.',
+      body:' We would give ourselves daily to the ministry of the word in study and meditation for our complete furnishing, to know God’s patterns for our living as Christians and we will live a life of complete obedience to whatsoever God commands us to do. Joshua 1:8, James 1:25, Acts 6:4, Genesis 26:3-5, Deuteronomy 28:1-14, 2 Timothy 2:15; 3:16-17, 1 Timothy 4:13-16, Romans 6:16-20, John 15:14-15, 1 Peter 2:2. We would as laborers in God’s vineyard be committed to evangelism; in preaching the gospel and doing God’s works. John 15:14-16, 2 Corinthians 5:17-19, Matthew 5:14-16; 28:19-20, Mark 16:15-20, Acts 10:38, 1 Peter 1:12, 2 Timothy 4:2.Holiness will be our lifestyle in thoughts, word and actions. 2 Timothy 2:19-21, 1 Peter 1;14-16, Ephesians 1:4, Philippians 4:8, 2 Peter 3:13-14, 1 Timothy 4;12, 1 Thessalonians 4:7, Romans 6:16-20 We would live a consistent prayer and fasting life to be spiritually-disciplined, so we would  become that man that God wants us to be on the earth. Genesis 1:26-28, 1 Thessalonians 5:17, Acts 2:42; 6:4, James 5:16-18, Colossians 4:2&12, 1 Corinthians 9:24-27, Romans 12:12, Luke 18:1.',
     },
     {
       url: About5,
@@ -78,9 +79,10 @@ const AboutUs = () => {
           >
             <img src={image.url} alt="" />
             <div className="slide-text">
-              <h2>{image.text}</h2>
-              <div>{image.body}</div>
+              <h2 className='image-text'>{image.text}</h2>
+              <div className='image-body'>{image.body}</div>
             </div>
+            <Footer/>
           </div>
         ))}
       </div>

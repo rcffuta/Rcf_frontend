@@ -37,11 +37,11 @@ const Footer = () => {
   const classes = useStyles();
 
   const handleFacebookClick = () => {
-    window.open('https://www.facebook.com', '_blank');
+    window.open('https://web.facebook.com/rcffuta', '_blank');
   };
 
   const handleInstagramClick = () => {
-    window.open('https://www.instagram.com', '_blank');
+    window.open('https://www.instagram.com/rcffuta/', '_blank');
   };
 
   return (
