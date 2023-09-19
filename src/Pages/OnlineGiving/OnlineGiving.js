@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import './OnlineGiving.css';
 import Navbar from '../../Component/Navbar/Navbar';
 import Footerlogo from "../../Assets/Footerlogo.png"
+import OnlineGivingHeader from './OnlineGivingHeader';
 const OnlineGiving = () => {
   const contentRef = useRef(null);
 
@@ -29,8 +30,9 @@ const OnlineGiving = () => {
   return (
     <div className="online-giving-container">
       <Navbar />
+      <OnlineGivingHeader />
       <div className="online-giving-content" ref={contentRef}>
-        <div>What would you like to give towards?</div>
+        <div style={{textAlign: 'center'}}>What would you like to give towards?</div>
         <div className="online-giving-sections">
           <div className="online-giving-section">
             <div className="online-giving-section-flex">
