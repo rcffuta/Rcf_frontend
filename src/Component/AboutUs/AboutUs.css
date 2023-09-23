@@ -1,0 +1,26 @@
+
+  
+  .image-text {
+    display: flex;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  
+  .image-body {
+    display: flex;
+    margin: 0%;
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+
+  .footer-wrapper {
+    position: absolute;
+    bottom: -12% !important;
+    right: -34% !important;
+  }
+  .slide-text{
+    margin-top: 10%;
+  }
