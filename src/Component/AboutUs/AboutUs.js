@@ -22,10 +22,21 @@ const AboutUs = () => {
       text: 'History Of The Fellowship',
       body:'The Redeemed Christian Fellowship, FUTA was founded in 1989 by . It started as a in The Redeemed Christian Fellowship, FUTA was founded in 1989 by . It started as a inThe Redeemed Christian Fellowship, FUTA was founded in 1989 by . It started as a in',
     },
+    
     {
       url: About3,
       text: 'VISION STATEMENT',
       body:'To raise men who would be complete examples of God’s mind and be templates for others to follow. 1 Timothy 4:11-12, Titus 2:6-8, 2 Thessalonians 3:6-9.That every member of the church be thoroughly equipped for the master’s use amd fruitful in every good works in accordance with the ministry of reconciliation. 2 Timothy 2:19-21; 3:16-17, 2 Corinthians 4:1-2; 6:3-10, Colossians 1:9-10To raise mature disciples who will be able to teach others the ways of God, who will not be deceived by fables and false doctrines. Ephesians 4:13-14, Hebrews 5:11-14, Colossians 2:6-8, Matthew 28:19-20',
+      body: [
+        {
+          sectionNumber: 1,
+          sectionContent: 'The Redeemed Christian Fellowship, FUTA was founded in 1989 by...'
+        },
+        {
+          sectionNumber: 2,
+          sectionContent: 'It started as a...'
+        },
+      ],
     },
     {
       url: About4,
