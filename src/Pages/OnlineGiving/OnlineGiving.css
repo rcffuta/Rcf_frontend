@@ -2,13 +2,13 @@
   position: relative;
 }
 
-.online-giving-container::before {
+.online {
   content: "";
-  position: fixed;
   top: 0;
   left: 0;
+  position: relative;
   width: 100%;
-  height: 60%;
+  height: 60vh;
   background-image: url("../../Assets/Online.png");
   background-size: cover;
   z-index: -1;
@@ -16,8 +16,14 @@
 
 .online-giving-content {
   position: relative;
-  margin-top: 200vh; /* Adjust the margin-top value as needed */
+  margin-top: 10vh; /* Adjust the margin-top value as needed */
   overflow-y: hidden;
+}
+.online h1{
+  color: white;
+  position: absolute;
+  margin-top: 10%; 
+  margin-left: 40%
 }
 
 .online-giving-sections {
