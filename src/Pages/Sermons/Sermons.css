@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700&family=Nunito+Sans:wght@400;500;600;700;800&display=swap');
+
 .sermon-container {
     position: relative;
     width: 100%;
     height: 100vh; /* Set the height to 100vh for full-screen background */
     overflow: hidden;
+    font-family: 'Inter';
+
+/*     font-family: 'Nunito Sans', sans-serif; */
 }
 .sermon-container img{
     width: 100%;
@@ -15,6 +20,78 @@
     bottom: 0%; /* Adjust the distance from the bottom */
     left: 0%;
     width: 100%;
-    border: solid 2px red;
     color: #fff;
+
+}
+
+.sermon-text-container{
+    display:grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    gap: 30%;
+    width:97%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: capitalize;
+}
+.text-left{
+    text-align: left;
+}
+.text-left h1{
+    font-size: 6rem;
+    font-weight: 600;
+    letter-spacing:-5px;
+    line-height: 145px;
+    padding: 0;
+    margin: 0;
+}
+.text-left .date{
+    font-weight: 300;
+    font-size: -0.7rem;
+    letter-spacing:-1px;
+    line-height: 22.7px;
+}
+.text-left .preacher{
+    font-weight: 600;
+    font-size: -0.25rem;
+    letter-spacing:0px;
+    line-height: 31.7px;
+}
+.text-left .sermon-icon{
+    display: flex;
+    gap: 5%;
+    margin-top: 10px;
+}
+.text-right{
+    text-align: right;
+}
+.text-right .more-message{
+    display: flex;
+    gap: 50%;
+    font-weight: 700;
+    font-size: -0.5rem;
+    line-height: 27px;
+}
+.text-right table, tr{
+    width: 100%;
+    text-align: left;
+    margin-top: 16px;
+}
+.text-right .date-posted{
+    font-size:x-small;
+    line-height: 18.16px;
+    font-weight: 300;
+}
+.text-right .message-title{
+    font-size:-0.25rem;
+    line-height: 31.7px;
+    font-weight: 500;
+}
+.text-right table tr div{
+    display: flex;
+    gap: 50%;
+}
+.text-right hr{
+   border:solid 1px #4DC8EB;
+   margin-top: 0;
+   margin-bottom: 16px;
 }
