@@ -1,55 +1,63 @@
 .excos-container {
-    position: relative;
-    overflow: hidden;
-    width: 100vw;
-    height: 100vh;
-  }
-  
-  .background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-  }
-  
-  
-  .image-scroll {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-  }
-  
-  .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .image {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .image.active {
-    width: 250px;
-    height: 250px;
-  }
-  
-  .left-arrow,
-  .right-arrow {
-    cursor: pointer;
-    font-size: 24px;
-    margin: 0 10px;
-    color: #FFFF;
-  }
-  
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.image-scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2%; /* Add 2% spacing between boxes horizontally */
+}
+
+.image-box {
+  flex: 1; /* Take up equal space for each box */
+  width: 200px; /* Increased size a little bit */
+  height: 200px; /* Increased size a little bit */
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.image.active {
+  width: 250px; /* Increased size when active */
+  height: 250px; /* Increased size when active */
+}
+
+.left-arrow,
+.right-arrow {
+  cursor: pointer;
+  font-size: 24px;
+  color: #FFFF;
+}
+
+/* Add some space to the left and right of the arrows */
+.left-arrow {
+  margin-right: 10px;
+}
+
+.right-arrow {
+  margin-left: 10px;
+}
