@@ -44,6 +44,7 @@
   height: 30vh;
   background-color: #003e6b;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
