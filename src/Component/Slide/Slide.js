@@ -12,17 +12,17 @@ const Slide = () => {
 
   const images = [
     {
-      url: Slide1,
+      url: "https://res.cloudinary.com/dutcp8qkx/image/upload/v1697753745/rcf/Slide1_h48ptb.png",
       text: 'Fellowship',
       body:'We are in Christ knitted in love and unity, called into the fellowship of the Holy Spirit through Jesus Christ our Lord and Saviour.',
     },
     {
-      url: Slide2,
+      url: "https://res.cloudinary.com/dutcp8qkx/image/upload/v1697753738/rcf/Slide2_tlfm5y.png",
       text: 'A place where good things never cease!',
       body:'The steadfast love of the LORD never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness.',
     },
     {
-      url: Slide3,
+      url: "https://res.cloudinary.com/dutcp8qkx/image/upload/v1697753745/rcf/Slide3_u1ygqj.png",
       text: 'Spirituality',
       body:'We are a peculiar generation, God’s own people— a fellowship of young people expressing themselves in Christ',
     },
@@ -59,23 +59,23 @@ const Slide = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div>
       <div className="slider" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         {images.map((image, index) => (
           <div
             key={index}
             className={`slide ${currentIndex === index ? 'active' : ''}`}
           >
-            <img src={image.url} alt="" />
-            <div className="slide-text">
+            <img src={image.url} alt="" className="relative h-full w-full object-cover"/>
+            <div className="absolute bottom-40 left-1/2 transform -translate-x-1/2 text-white text-center pb-60 xs:bottom-0">
               <h2 className='image-slide'>{image.text}</h2>
               <div className='body-slide-flex'>
               <div className='body-slide'>{image.body}</div>
-              <EastIcon fontSize='small' className='Arrow'/>
+             
               </div>
               <div className="footer-wrapper">
-            <Footer />
-          </div>
+                <Footer />
+              </div>
             </div>
           </div>
         ))}
