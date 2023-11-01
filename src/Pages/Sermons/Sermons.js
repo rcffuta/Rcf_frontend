@@ -5,13 +5,19 @@ import Navbar from '../../Component/Navbar/Navbar'
 import HeadsetIcon from '@mui/icons-material/Headset';
 import CloudDownloadIcon from '@mui/icons-material/CloudDownloadOutlined';
 import EastIcon from '@mui/icons-material/East';
+import NewSermon from './sermon';
 const Sermons = () => {
   return (
     <>
     <Navbar />
-    <div className='sermon-container'>
-      <img src={sermonBg} alt="" />
-      <div className="sermon-text">
+    <div>
+    {/* <img src={sermonBg} alt="" /> */}
+    <NewSermon/>
+    </div>
+    {/* <div className='sermon-container'> */}
+      {/* <img src={sermonBg} alt="" /> */}
+      
+      {/* <div className="sermon-text">
         <div className="sermon-text-conatiner">
           <div className="text-left">
             <p className="date">June 28,2023</p>
@@ -71,8 +77,8 @@ const Sermons = () => {
             </table>
           </div>
         </div>
-      </div>
-    </div>
+      </div> */}
+    {/* </div> */}
   </>
 
   )
