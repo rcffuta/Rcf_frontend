@@ -4,7 +4,6 @@ import ClipboardJS from 'clipboard';
 import Navbar from '../../Component/Navbar/Navbar';
 import Footerlogo from "../../Assets/Footerlogo.png"
 import OnlineGivingHeader from './onlineGivingHeader.js';
-import { ClipboardDocumentListIcon } from '@heroicons/react/20/solid'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -86,7 +85,7 @@ const OnlineGiving = () => {
           <ToastContainer />
           <div className='row justify-center items-center'>
             <div className="copy-button" onClick={() => handleCopy('3041 232 323')}>
-              <ClipboardDocumentListIcon className="-ml-1.5 h-5 w-5 mx-1" aria-hidden="true" /> 
+              {/* <ClipboardDocumentListIcon className="-ml-1.5 h-5 w-5 mx-1" aria-hidden="true" />  */}
                 <button>
                   Copy
                 </button>
