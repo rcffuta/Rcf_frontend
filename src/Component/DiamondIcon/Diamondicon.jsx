@@ -5,4 +5,4 @@ export function DiamondIcon(props) {
       </svg>
     )
   }
-  
+    
